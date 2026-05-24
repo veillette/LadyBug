@@ -2,5 +2,35 @@
   "title": "Lady Bug",
   "screens": {
     "ladyBug": "Lady Bug"
-  }
+  },
+  "vectors": {
+    "title": "Vectors",
+    "showVelocity": "Show Velocity",
+    "showAcceleration": "Show Acceleration"
+  },
+  "motion": {
+    "title": "Motion",
+    "manual": "Manual",
+    "linear": "Linear",
+    "circular": "Circular",
+    "elliptical": "Elliptical"
+  },
+  "trace": {
+    "title": "Trace",
+    "line": "Line",
+    "dots": "Dots",
+    "off": "Off"
+  },
+  "remoteControl": {
+    "title": "Remote Control",
+    "position": "Position",
+    "velocity": "Velocity",
+    "acceleration": "Acceleration"
+  },
+  "playback": {
+    "record": "Record",
+    "playback": "Playback",
+    "clear": "Clear"
+  },
+  "returnLadybug": "Return Ladybug"
 }

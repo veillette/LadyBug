@@ -45,4 +45,28 @@ export class StringManager {
       ladyBugStringProperty: this.stringProperties.screens.ladyBugStringProperty,
     };
   }
+
+  public getVectorsStrings() {
+    return this.stringProperties.vectors;
+  }
+
+  public getMotionStrings() {
+    return this.stringProperties.motion;
+  }
+
+  public getTraceStrings() {
+    return this.stringProperties.trace;
+  }
+
+  public getRemoteControlStrings() {
+    return this.stringProperties.remoteControl;
+  }
+
+  public getPlaybackStrings() {
+    return this.stringProperties.playback;
+  }
+
+  public getReturnLadybugStringProperty(): ReadOnlyProperty<string> {
+    return this.stringProperties.returnLadybugStringProperty;
+  }
 }

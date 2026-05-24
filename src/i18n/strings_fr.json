@@ -2,5 +2,35 @@
   "title": "Coccinelle",
   "screens": {
     "ladyBug": "Coccinelle"
-  }
+  },
+  "vectors": {
+    "title": "Vecteurs",
+    "showVelocity": "Afficher la vitesse",
+    "showAcceleration": "Afficher l'accélération"
+  },
+  "motion": {
+    "title": "Mouvement",
+    "manual": "Manuel",
+    "linear": "Linéaire",
+    "circular": "Circulaire",
+    "elliptical": "Elliptique"
+  },
+  "trace": {
+    "title": "Trace",
+    "line": "Ligne",
+    "dots": "Points",
+    "off": "Aucune"
+  },
+  "remoteControl": {
+    "title": "Télécommande",
+    "position": "Position",
+    "velocity": "Vitesse",
+    "acceleration": "Accélération"
+  },
+  "playback": {
+    "record": "Enregistrer",
+    "playback": "Lecture",
+    "clear": "Effacer"
+  },
+  "returnLadybug": "Ramener la coccinelle"
 }
