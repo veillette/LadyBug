@@ -184,10 +184,18 @@ export default class LadybugNode extends Node {
 
     for (const [x, y] of SPOT_POSITIONS) {
       leftWing.addChild(
-        new Circle(OPEN_SPOT_RADIUS, { fill: LadyBugColors.ladybugSpotsProperty, x: -Math.abs(x) * OPEN_SPOT_X_SCALE, y }),
+        new Circle(OPEN_SPOT_RADIUS, {
+          fill: LadyBugColors.ladybugSpotsProperty,
+          x: -Math.abs(x) * OPEN_SPOT_X_SCALE,
+          y,
+        }),
       );
       rightWing.addChild(
-        new Circle(OPEN_SPOT_RADIUS, { fill: LadyBugColors.ladybugSpotsProperty, x: Math.abs(x) * OPEN_SPOT_X_SCALE, y }),
+        new Circle(OPEN_SPOT_RADIUS, {
+          fill: LadyBugColors.ladybugSpotsProperty,
+          x: Math.abs(x) * OPEN_SPOT_X_SCALE,
+          y,
+        }),
       );
     }
     node.addChild(leftWing);

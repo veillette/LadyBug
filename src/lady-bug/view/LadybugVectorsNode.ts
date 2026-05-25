@@ -20,7 +20,12 @@ import type { LadyBugModel } from "../model/LadyBugModel.js";
 const ARROW_HEAD_WIDTH = 14; // px
 const ARROW_HEAD_HEIGHT = 14; // px
 const ARROW_TAIL_WIDTH = 5; // px
-const ARROW_OPTIONS = { headWidth: ARROW_HEAD_WIDTH, headHeight: ARROW_HEAD_HEIGHT, tailWidth: ARROW_TAIL_WIDTH, stroke: null } as const;
+const ARROW_OPTIONS = {
+  headWidth: ARROW_HEAD_WIDTH,
+  headHeight: ARROW_HEAD_HEIGHT,
+  tailWidth: ARROW_TAIL_WIDTH,
+  stroke: null,
+} as const;
 
 export default class LadybugVectorsNode extends Node {
   public constructor(model: LadyBugModel, modelViewTransform: ModelViewTransform2) {
